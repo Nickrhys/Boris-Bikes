@@ -10,6 +10,8 @@ class DockingStation
 		@bikes.count
 	end
 	def dock(bike)
+		# if the capacity is reached, raise an exception
+		raise "Station is full" if full?
 		@bikes << bike
 	end
 
