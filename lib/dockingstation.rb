@@ -17,3 +17,5 @@ class DockingStation
 	end
 
 end
+
+# to be continued
