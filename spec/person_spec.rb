@@ -45,4 +45,3 @@ describe Person do
 	end 
 end
 
-# Nick and Maya fudge the system again
