@@ -44,3 +44,5 @@ describe Person do
 		expect(person_with_bike).to_not have_bike
 	end 
 end
+
+# Nick and Maya fudge the system

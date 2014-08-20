@@ -20,3 +20,4 @@ class Person
 		station.dock(@bike.pop)
 	end
 end 
+# Nick and Maya fudge the system
