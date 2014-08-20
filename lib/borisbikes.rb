@@ -1,6 +1,6 @@
 class Bike
 
-def initialize
+	def initialize
 		fix!
 	end 
 
