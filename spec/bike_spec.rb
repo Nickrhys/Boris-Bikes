@@ -1,4 +1,4 @@
-require 'bike'
+require 'borisbikes'
 
 describe Bike do
 
