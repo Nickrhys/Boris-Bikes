@@ -1,7 +1,10 @@
 class Bike
 
-	def initialize
+	attr_accessor :serial
+
+	def initialize()
 		fix!
+		@serial = generate_serial
 	end 
 
 	def broken?
@@ -15,4 +18,10 @@ class Bike
 	def fix!
 		@broken = false
 	end
+
+
+	def generate_serial
+		"#{[*"A".."Z"].sample(2).join}-#{rand(9999)}"
+	end
+
 end

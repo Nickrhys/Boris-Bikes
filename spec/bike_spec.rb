@@ -19,6 +19,11 @@ describe Bike do
 		expect(bike).not_to be_broken
 	end
 
+	it 'should have a serial number' do
+		expect(bike.serial).to match /^[A-Z]{2}-[\d]{4}$/
+	end
+
+
 end
 
 # Nick and Maya fudge the system
