@@ -52,8 +52,5 @@ describe BikeContainer do
 		expect(lambda { holder.release(bike) }).to raise_error(RuntimeError)
 	end
 
-	# it "should only accept bikes" do
-	# 	expect(lambda { holder.dock(holder) }).to raise_error(RuntimeError)
-	# end
 end
 

@@ -8,6 +8,12 @@ describe DockingStation do
 		expect(station.capacity).to eq(123)
 	end
 end
+
+ # This code is now in the bike container module test. I have kept it in here as we 
+ # created the funtionality for the bike container module initially in docking station
+ # before realising that it shared funtionality with van and garage, hence the creation
+ # of the bike container module. 
+
 	# def fill_station(station)
 	# 	20.times { station.dock(Bike.new) }
 	# end	
