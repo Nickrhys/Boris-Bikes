@@ -1,11 +1,11 @@
 require './lib/van'
 
-describe Van do
-	
+describe Van do 					
+												
 	let(:van) 					 {Van.new(:capacity => 123)				}
 	let(:bike) 					 {double :bike										}
-	let(:station) 			 {DockingStation.new							}
-	let(:garage) 				 {Garage.new											}  
+	let(:station) 			 {DockingStation.new							} # TODO doubles for docking station
+	let(:garage) 				 {Garage.new											} # and garage
 	let(:broken_bike) 	 { double :bike, :broken? => true	}
 	let(:available_bike) { double :bike, :broken? => false}
 	
